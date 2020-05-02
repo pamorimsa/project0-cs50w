@@ -7,11 +7,76 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 
         <title>Silly Library</title>
     </head>
     <body>
-        <h1>Welcome to the Silly Library</h1>
+        <!-- Begin navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><span id="brand">Silly Library</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="business-economics.html">Business and Economics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="computer-science.html">Computer Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="math-statistics.html">Math and Statistics</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End navbar -->
+
+        <div class="container">
+            <h1>Welcome to the Silly Library</h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <!-- Business and Economics card -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/fawlty.jpg" alt="Business and Economics">
+                        <div class="card-body">
+                            <p class="card-text">Business and Economics</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Computer Science card -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/neville-shunt.jpg" alt="Computer Science">
+                        <div class="card-body">
+                            <p class="card-text">Computer Science</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mathematics and Statistics card -->
+                <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="media/how-not-to-be-seen.jpg" alt="Mathematics and Statistics">
+                        <div class="card-body">
+                            <p class="card-text">Mathematics and Statistics</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- jQuery, Popper.js, Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
