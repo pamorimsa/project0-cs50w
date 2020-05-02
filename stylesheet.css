@@ -1,0 +1,22 @@
+#brand {
+    font-family: "Cinzel", serif;
+}
+
+#brand:hover {
+    color: #d94149;
+}
+
+nav li {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+}
+
+body h1 {
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}

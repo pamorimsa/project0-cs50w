@@ -1,0 +1,11 @@
+$brand-font: "Cinzel", serif;
+$title-font: sans-serif;
+$text-font: sans-serif;
+
+.navbar-brand {
+    font-family: $brand-font;
+}
+
+.navbar-brand:hover {
+    color: red;
+}
