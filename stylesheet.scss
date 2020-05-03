@@ -1,11 +1,92 @@
 $brand-font: "Cinzel", serif;
-$title-font: sans-serif;
-$text-font: sans-serif;
+$body-font: "Jost", sans-serif;
+$accent-color: #dc3545;
 
-.navbar-brand {
-    font-family: $brand-font;
+%link-shared {
+    color: $accent-color;
 }
 
-.navbar-brand:hover {
-    color: red;
+@media screen and (max-width: 767px) {
+    #mobile-identifier {
+        display: inline;
+        color: #6c757d;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #mobile-identifier { display: none; }
+}
+
+#brand {
+    font-family: $brand-font;
+    &:hover { @extend %link-shared; }
+}
+
+.col-sm {
+    margin: 15px;
+}
+
+.col-sm-6 {
+    margin-top: 10px;
+}
+
+.in-text-link {
+    @extend %link-shared;
+    &:hover {
+        @extend %link-shared;
+        text-decoration: overline;
+    }
+}
+
+.card-link {
+    color: #212529;
+    &:hover { @extend %link-shared; }
+}
+
+.stretched-link {
+    &:hover {
+        @extend %link-shared;
+        text-decoration: none;
+    }
+}
+
+.index-card {
+    .card {
+        font-weight: 400;
+        text-align: center;
+        .stretched-link {
+            color: #212529;
+            &:hover { @extend %link-shared; }
+        }
+        &:hover {
+        border-color: $accent-color;
+        }
+    }
+}
+
+.btn {
+    background-color: #343a40;
+    border-color: #343a40;
+    &:hover {
+        background-color: $accent-color;
+        border-color: $accent-color;
+    }
+}
+
+nav {
+    li {
+    font-family: $body-font;
+    font-weight: 400;
+    }
+}
+
+body {
+    font-family: "Jost", sans-serif;
+    font-weight: 300;
+
+    .display-4 { font-weight: 500; }
+}
+
+div h1 {
+    color: #343a40;
 }
