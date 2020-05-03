@@ -1,14 +1,22 @@
+@media screen and (min-width: 768px) {
+    #mobile-identifier { display: none; }
+}
+
 #brand {
     font-family: "Cinzel", serif;
 }
 
 #brand:hover {
-    color: #d94149;
+    color: #dc3545;
+}
+
+#mobile-identifier {
+    color: #6c757d;
 }
 
 nav li {
     font-family: "Jost", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 body {
@@ -16,7 +24,49 @@ body {
     font-weight: 300;
 }
 
-body h1 {
-    font-family: "Jost", sans-serif;
+body .display-4 {
+    font-weight: 500;
+}
+
+div h1 {
+    color: #343a40;
+}
+
+.col-sm {
+    margin: 15px;
+}
+
+.col-sm-6 {
+    margin-top: 10px;
+}
+
+.silly-title {
+    font-family: "Cinzel", serif;
+}
+
+.in-text-link {
+    color: #dc3545;
+}
+
+.in-text-link:hover {
+    color: #dc3545;
+    text-decoration:overline;
+}
+
+div.index-card .card {
     font-weight: 400;
+    text-align: center;
+}
+
+div.index-card .card:hover {
+    border-color: #dc3545;
+    background-color: #dc3545;
+}
+
+.card-link {
+    color: #212529;
+}
+
+.stretched-link:hover {
+    text-decoration: none;
 }
