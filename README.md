@@ -2,11 +2,11 @@
 __Silly Library__ is part of [CS50W's Project 0](https://docs.cs50.net/web/2020/x/projects/0/project0.html). It's a very simple website built with [Bootstrap 4](https://getbootstrap.com/) and Monty Python references.
 
 The idea behind the __Silly Library__ is to digest some of the textbooks that [Springer Nature](https://www.springer.com/) made available for open access. With that purpose, the website was structured in five pages:
-* [Index](https://pedro-as.github.io/project0-cs50w/index.html)
-* [Business and Economics](https://pedro-as.github.io/project0-cs50w/business-economics.html)
-* [Computer Science](https://pedro-as.github.io/project0-cs50w/computer-science.html)
-* [Math and Statistics](https://pedro-as.github.io/project0-cs50w/math-statistics.html)
-* [Full Content](https://pedro-as.github.io/project0-cs50w/different.html)
+* [Index](https://pedro-as.github.io/silly-library/index.html)
+* [Business and Economics](https://pedro-as.github.io/silly-library/business-economics.html)
+* [Computer Science](https://pedro-as.github.io/silly-library/computer-science.html)
+* [Math and Statistics](https://pedro-as.github.io/silly-library/math-statistics.html)
+* [Full Content](t)
 ---
 ### Index
 Contains Bootstrap cards linking to other pages' content.
